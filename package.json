@@ -1,0 +1,22 @@
+{
+  "name": "cleverbot-free-wrapper",
+  "version": "1.0.0",
+  "description": "Wraps the cleverbot-free package in a class, adds a resolver and keeps track of context",
+  "main": "index.js",
+  "repository": "git@github.com:maxwlang/Cleverbot-Free-Wrapper.git",
+  "author": "Maxwell Lang <maxwlang@me.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "cleverbot-free": "^1.1.6",
+    "ramda.isnil": "^0.26.1"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.1.2",
+    "sinon": "^11.1.2"
+  },
+  "scripts": {
+    "test": "mocha tests/**/*.js"
+  }
+}
